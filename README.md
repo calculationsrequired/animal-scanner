@@ -6,7 +6,7 @@ Using convolution neural network, the goal of this project will be to take in an
 ### Data Set
 This project will use the Microsfot Common Objects in Context (COCO), which contains images and their labels and classifications. 
 ### Software
-Tensorflow and Keras with Python. 
+Tensorflow and Keras with Python will be used to train the network to recognize objects and names. I will write a program in python to take in an image as input and retrieve information from a database. That output will then be returned as text for user.  
 ### Relevant Research Articles
 ImageNet Classification with Deep Convolutional Neural Networks by Alex Krizhevsky
 ### Collaboration
