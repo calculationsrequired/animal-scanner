@@ -8,5 +8,10 @@ This project will use the Microsfot Common Objects in Context (COCO), which cont
 Tensorflow and Keras with Python. 
 ### Relevant Research Articles
 ImageNet Classification with Deep Convolutional Neural Networks by Alex Krizhevsky
+### Collaboration
+This will be a one-person project. 
+### Project Milestones
+November 6 - Object scanner is able to identify an object picture against a white or constrasting background. 
+December 4 - Object scanner is able to identify an object and give basic or interesting information to the user. 
 
 
