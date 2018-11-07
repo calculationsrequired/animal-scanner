@@ -17,3 +17,8 @@ November 6 - Object scanner is able to identify an object picture against a whit
 ![1](https://user-images.githubusercontent.com/43867207/46512292-b23e5580-c818-11e8-926f-c8a7660f4f84.jpg)
 December 4 - Object scanner is able to identify an object and give basic or interesting information to the user. 
 ![catfact](https://user-images.githubusercontent.com/43867207/46512185-2debd280-c818-11e8-8d4d-947bf4570168.png)
+## Midpoint Report
+Alright, maybe I was a little ambitious with what my scanner could do in a month. The COCO dataset is proving to be quite lengthy and tremendous to work with. I thought my 1080ti would grind it down to size but it is still taking awhile to get a good training model for it. 
+  Possible solutions - try the model on something smaller like cifar to find a good model. 
+                       ask for help on current model for insights from TA or prof. 
+                       find a smaller subset of data or narrow the classification types of the image inputs - all objects to cats or                                  chairs or something.
