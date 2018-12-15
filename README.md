@@ -1,6 +1,7 @@
 # neutralbot version.alpha
 This bot will take a face image as input and classify it as one of eight emotions; neutral, anger, contempt, disgust, fear, happy, sad and surpise. 
-The bot will then attempt to stop the displayed emotions with either pictures, videos, or textual informations. 
+The bot will then attempt to stop the displayed emotions with either pictures, videos, or textual informations.  
+use neutralbot.py to run program
 ### Problems
 There were issues training the network to have a decent validation and test accuracy. I've tried many architectures and the best I got with this network is about 75%. For the real-world images, the bot is actually quite terrible at classifying the emotions. Much work will have to be done for sure.
 ### Data Set Details
