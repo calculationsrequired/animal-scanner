@@ -1,12 +1,12 @@
-# Object Scanner
-Project to identify everyday objects and give information about them.  
-![000000221213](https://user-images.githubusercontent.com/43867207/46512038-8d95ae00-c817-11e8-951e-70ef09b77d70.jpg)
-### Abstract
-Using convolution neural network, the goal of this project will be to take in an image of an everyday object, identify  the object, and retrieve historical or interesting data to the user. 
+# neutralbot v.alpha
+This bot will take a face image as input, classify it as one of eight emotions; neutral, anger, contempt, disgust, fear, happy, sad and surpise. 
+The bot will then attempt to stop the displayed emotions with either pictures, videos, or textual informations. 
+### Problems
+There were issues training the network to have a decent validation and test accuracy. The best I got with this network is about 75%. For the real-world images, the bot is actually quite terrible at classifying the emotions. Much work will have to be done for sure.
 ### Data Set
-This project will use the Microsfot Common Objects in Context (COCO), which contains images and their labels and classifications. 
+Cohn-Kanade Extended (CK+) Facial Expression dataset. Dataset contains posed and unposed stills of people's faces going through an emotion. 
 ### Software
-Tensorflow and Keras with Python will be used to train the network to recognize objects and names. I will write a program in python to take in an image as input and retrieve information from a database. That output will then be returned as text for user.  
+Tensorflow, Keras, PIL, cv2 
 ### Relevant Research Articles
 ImageNet Classification with Deep Convolutional Neural Networks by Alex Krizhevsky
 ### Collaboration
@@ -17,8 +17,7 @@ November 6 - Object scanner is able to identify an object picture against a whit
 ![1](https://user-images.githubusercontent.com/43867207/46512292-b23e5580-c818-11e8-926f-c8a7660f4f84.jpg)
 December 4 - Object scanner is able to identify an object and give basic or interesting information to the user. 
 ![catfact](https://user-images.githubusercontent.com/43867207/46512185-2debd280-c818-11e8-8d4d-947bf4570168.png)
-## Midpoint Report
-Alright, maybe I was a little ambitious with what my scanner could do in a month. The COCO dataset is proving to be quite lengthy and tremendous to work with. I thought my 1080ti would grind it down to size but it is still taking awhile to get a good training model for it. 
-  Possible solutions - try the model on something smaller like cifar to find a good model. 
-                       ask for help on current model for insights from TA or prof. 
-                       find a smaller subset of data or narrow the classification types of the image inputs - all objects to cats or                                  chairs or something.
+
+## References
+- Kanade, T., Cohn, J. F., & Tian, Y. (2000). Comprehensive database for facial expression analysis. Proceedings of the Fourth IEEE International Conference on Automatic Face and Gesture Recognition (FG'00), Grenoble, France, 46-53.
+- Lucey, P., Cohn, J. F., Kanade, T., Saragih, J., Ambadar, Z., & Matthews, I. (2010). The Extended Cohn-Kanade Dataset (CK+): A complete expression dataset for action unit and emotion-specified expression. Proceedings of the Third International Workshop on CVPR for Human Communicative Behavior Analysis (CVPR4HB 2010), San Francisco, USA, 94-101.
