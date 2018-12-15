@@ -6,7 +6,7 @@ There were issues training the network to have a decent validation and test accu
 ### Data Set Details
 Cohn-Kanade Extended (CK+) Facial Expression dataset. Dataset contains posed and unposed stills of people's faces going through an emotion. 
 ### Architecture of Model
-![model_architecture](https://user-images.githubusercontent.com/43867207/50037716-2431d880-ffda-11e8-91db-73b4326a752c.png)
+![model_architecture](https://user-images.githubusercontent.com/43867207/50037833-61e33100-ffdb-11e8-8620-6f5776543e50.png)
 Three Convolutional layer with three dense layer. Parametric Rectified Linear Unit (PReLU) after every convolution layer, followed by a max pooling layer. Batch normalization layers follow those layers. All three convolution layers have 3x3 filters. The first layer has 96 filters and is doubled for the next. The max pooling are 2x2. 
 Between the dense layers, there is a 0.5 dropout layer and the output of the final layer is through through a softmax.  
 ### Software
